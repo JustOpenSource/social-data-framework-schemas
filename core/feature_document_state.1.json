@@ -1,0 +1,17 @@
+{
+
+    "id": "/core/feature_document_state.1",
+
+    "type": "object",
+
+    "description" : "This feature allows a document to be changed from one state to another.",
+
+    "additionalProperties" : false,
+    
+    "properties": {
+        
+        "start_state" :  { "$ref" : "/core/document_state.1" },
+
+        "end_state" : { "$ref" : "/core/document_state.1" }
+    }
+}

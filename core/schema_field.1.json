@@ -1,0 +1,18 @@
+{
+    "id": "/core/schema_field.1",
+
+    "type": "object",
+
+    "description" : "Path to a schema field.",
+
+    "additionalProperties" : false,
+    
+    "properties": {
+        
+        "value" : {
+            
+            "type" : "string"
+            
+        }
+    }
+}

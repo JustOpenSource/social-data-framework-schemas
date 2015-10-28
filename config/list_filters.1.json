@@ -1,0 +1,57 @@
+{
+    
+    "id": "/config/list_filters.1",
+    
+    "type": "object",
+
+    "description" : "Config for the list filters.",
+
+    "additionalProperties" : false,
+
+    "required" : [ "sort_by_default" ],
+
+    "properties": {
+
+        "sort_by_options" : {
+                
+            "type" : "array",
+
+            "description" : "Array of schema fields can be used to sort list.",
+            
+            "items" : {
+                
+                "type" : { "$ref" : "/core/schema_field.1" }
+
+            }
+        },
+
+        "sort_by_default" : {
+            
+            "type" : "object",
+
+            "description" : "The default field and order for the list.",
+
+            "additionalProperties" : false,
+
+            "properties" : {
+                
+                "sort_type" : {
+
+                    "enum" : [ "ASCENDING", "DESCENDING" ],
+
+                    "description" : "The sort order of the default ."
+
+                },
+
+                "field" : { "$ref" : "/core/schema_field.1" }
+            }
+        },
+
+        "filters" : {
+            
+            "type" : "array",
+
+            "items" : { "$ref" : "/core/schema_field.1" }
+        }
+    }
+}

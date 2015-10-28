@@ -1,0 +1,16 @@
+{
+
+    "id": "/config/infographics.1",
+    
+    "type": "object",
+
+    "description" : "Config for the infographics view",
+
+    "additionalProperties" : false,
+
+    "properties" : {
+
+        
+        
+    }
+}

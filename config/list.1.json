@@ -1,0 +1,66 @@
+{
+
+    "id": "/config/list.1",
+    
+    "type": "object",
+
+    "description" : "Config for the list view.",
+
+    "additionalProperties" : false,
+
+    "required" : [ "fields", "per_page_default" ],
+
+    "properties": {
+
+        "per_page_default" : {
+
+            "enum" : [ 1, 10, 20, 50, 100, 500 ],
+
+            "description" : "Default number of entries to show per page"
+        
+        },
+
+        "fields" : {
+
+            "type" : "array",
+
+            "description" : "Ordered list of fields that will appear in the list",
+
+            "items" : {
+
+                "type" : "object",
+
+                "additionalProperties" : false,
+
+                "required" : [ "field", "size" ],
+
+                "properties" : {
+
+                    "field" : {
+
+                        "type" : { "$ref" : "/core/schema_field.1" },
+
+                        "description" : "The schema field that will appear in the list."
+
+                    },
+
+                    "size" : {
+                        
+                        "enum" : [ "EXTRA_SMALL", "SMALL", "MEDIUM", "LARGE", "EXTRA_LARGE" ],
+
+                        "description" : "The size to display the schema field."
+                    
+                    },
+
+                    "link_to_details" : {
+
+                        "type" : "boolean",
+
+                        "description" : "Determines if the field will also be a link to the details page."
+
+                    }
+                }
+            }
+        }
+    }
+}

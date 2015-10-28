@@ -1,0 +1,34 @@
+{
+
+    "sort_by_options" : [
+
+        { "value" : "some.schema.path" },
+
+        { "value" : "other.schema.path" },
+
+        { "value" : "another.schema.path" }
+
+    ],
+
+    "sort_by_default" : {
+
+        "sort_type" : "ASCENDING",
+
+        "field" : { "value" : "some.schema.path" }
+
+    },
+
+    "filters" : [
+
+        { "value" : "some.schema.path" },
+
+        { "value" : "other.schema.path" },
+
+        { "value" : "another.schema.path" },
+
+        { "value" : "yet.another.schema.path" },
+
+        { "value" : "still.another.schema.path" }
+
+    ]
+}

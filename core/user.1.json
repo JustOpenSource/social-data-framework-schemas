@@ -1,0 +1,38 @@
+{
+
+    "id": "/core/user.1",
+    
+    "type": "object",
+
+    "description" : "A user within the system.",
+
+    "additionalProperties" : false,
+
+    "properties": {
+
+        "username" : {
+
+            "type" : "string",
+
+            "description" : "A valid username when coupled with id system"
+
+        },
+
+        "id_system" : {
+
+            "enum" : [ "OPENID", "GMAIL" ],
+
+            "description" : "ID system that is used by this username."
+            
+        },
+
+        "roles" : {
+
+            "type" : "array",
+
+            "description" : "List of roles that apply to this user.",
+
+            "items" : { "$ref" : "/core/user_role.1" }
+        }
+    }
+}

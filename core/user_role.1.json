@@ -1,0 +1,21 @@
+{
+    
+    "id": "/core/user_role.1",
+
+    "type": "object",
+
+    "description" : "User roles available in the system.",
+
+    "additionalProperties" : false,
+    
+    "properties": {
+        
+        "value" : {
+            
+            "enum" : [ "ADMIN", "EDITOR", "RESEARCHER", "PUBLIC" ],
+
+            "description" : "Possible user roles."
+            
+        }
+    }
+}

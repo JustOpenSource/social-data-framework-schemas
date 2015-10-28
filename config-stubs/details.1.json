@@ -1,0 +1,33 @@
+{
+
+    "sections": [
+
+        {
+
+            "name" : "section_one",
+
+            "fields" : [
+
+                { "value" : "some.path" },
+
+                { "value" : "some.other.path" }
+
+            ]
+
+        }, {
+
+            "name" : "section_two",
+
+            "fields" : [
+
+                { "value" : "yet.some.path" },
+
+                { "value" : "yet.some.other.path" },
+
+                { "value" : "yet.some.other.path.again" }
+
+            ]
+
+        }
+    ]
+}

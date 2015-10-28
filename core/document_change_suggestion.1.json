@@ -1,0 +1,43 @@
+{
+    "id": "/core/document_change_suggestion.1",
+
+    "type": "object",
+
+    "description" : "Path to a schema field.",
+
+    "additionalProperties" : false,
+
+    "required" : [ "email", "sources" ],
+    
+    "properties": {
+        
+        "name": {
+            
+            "type": "string"
+        
+        },
+
+        "email": {
+            
+            "type": "string"
+        
+        },
+
+        "notes": {
+            
+            "type": "string"
+        
+        },
+
+        "sources": {
+            
+            "type": "array",
+            
+            "items": {
+
+                "type": "string"
+            
+            }
+        }
+    }
+}

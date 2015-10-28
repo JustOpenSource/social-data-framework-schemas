@@ -1,0 +1,50 @@
+{
+    "id": "/config/details.1",
+    
+    "type": "object",
+
+    "description" : "Config for the record details view.",
+
+    "additionalProperties" : false,
+
+    "required" : [ "sections" ],
+
+    "properties": {
+
+        "sections" : {
+            
+            "type" : "array",
+
+            "description" : "Arrary of sections.",
+            
+            "items" : {
+                
+                "type" : "object",
+
+                "description" : "A section of the document.",
+
+                "additionalProperties" : false,
+                
+                "properties" : {
+                    
+                    "name" : {
+                        
+                        "type" : "string",
+                        
+                        "description" : "Section identifier, used by lang files, logging, etc"
+                    
+                    },
+
+                    "fields" : {
+                        
+                        "type" : "array",
+
+                        "description" : "Ordered list of fields contained in this section.",
+                        
+                        "items" : { "$ref" : "/core/schema_field.1" }
+                    }
+                }
+            }
+        }
+    }
+}

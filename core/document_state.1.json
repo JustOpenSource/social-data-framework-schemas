@@ -1,0 +1,20 @@
+{
+    "id": "/core/document_state.1",
+
+    "type": "object",
+
+    "description" : "Document states enum.",
+
+    "additionalProperties" : false,
+    
+    "properties": {
+        
+        "value" : {
+            
+            "enum" : [ "NEW", "REVIEWED", "PUBLISHED" ],
+
+            "description" : "The possible states a document can be in."
+
+        }
+    }
+}

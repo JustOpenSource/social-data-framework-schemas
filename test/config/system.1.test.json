@@ -1,0 +1,83 @@
+{
+
+    "users" : [
+
+        {
+            
+            "username" : "test@gmail.com",
+
+            "id_system" : "OPENID",
+
+            "roles" : [
+                
+                { "value" : "ADMIN" }
+
+            ]
+
+        }, {
+
+            "username" : "test@bar.com",
+
+            "id_system" : "GMAIL",
+
+            "roles" : [
+
+                { "value" : "EDITOR" }
+
+            ]
+        }
+    ],
+
+    "role_features" : [
+
+        {
+            "role" : { "value" : "PUBLIC" },
+
+            "features_generic" : [
+
+                { "value" : "PUBLISH_SUGGESTIONS" }, 
+
+                { "value" : "SUBMIT_NEW_RECORD" }
+
+            ]
+
+        }, {
+
+            "role" : { "value" : "EDITOR" },
+
+            "features_document_state" : [
+
+                {
+
+                    "start_state" : { "value" : "REVIEWED" },
+
+                    "end_state" : { "value" : "PUBLISHED" }
+
+                }, {
+
+                    "start_state" : { "value" : "NEW" },
+
+                    "end_state" : { "value" : "REVIEWED" }
+
+                }
+
+            ]
+
+        }, {
+
+            "role" : { "value" : "RESEARCHER" },
+
+            "features_document_state" : [
+
+                {
+
+                    "start_state" : { "value" : "NEW" },
+
+                    "end_state" : { "value" : "REVIEWED" }
+
+                }
+
+            ]
+        }
+    ]
+}

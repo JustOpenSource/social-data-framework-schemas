@@ -1,0 +1,16 @@
+{
+
+    "id": "/config/public_api.1",
+    
+    "type": "object",
+
+    "description" : "Config for the public data API.",
+
+    "additionalProperties" : false,
+
+    "properties" : {
+
+        
+        
+    }
+}

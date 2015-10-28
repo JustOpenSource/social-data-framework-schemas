@@ -1,0 +1,21 @@
+{
+
+    "role" : { "value" : "EDITOR" },
+
+    "features_generic" : [
+
+        { "value" : "SUBMIT_NEW_RECORD" }
+
+    ],
+
+    "features_document_state" : [
+        
+        {
+
+            "start_state" : { "value" : "NEW" },
+
+            "end_state" : { "value" : "REVIEWED" }
+
+        }
+    ]
+}

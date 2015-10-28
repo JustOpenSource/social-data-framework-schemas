@@ -1,0 +1,29 @@
+{
+
+    "id": "/core/feature_generic.1",
+
+    "type": "object",
+
+    "description" : "Generic features enum.",
+
+    "additionalProperties" : false,
+    
+    "properties": {
+        
+        "value" : {
+            
+            "enum" : [
+
+                "PUBLISH_SUGGESTIONS",
+
+                "SUBMIT_PUBLISHED_RECORD_SUGGESTION",
+
+                "SUBMIT_NEW_RECORD"
+
+            ],
+
+            "description" : "List of features available within the system."
+            
+        }
+    }
+}

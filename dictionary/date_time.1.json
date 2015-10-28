@@ -1,0 +1,31 @@
+{
+
+    "id" : "/dictionary/date_time.1.json",
+    
+    "type": "object",
+    
+    "properties": {
+        
+        "year_month_day" : {
+        
+            "type" : "string",
+        
+            "description" : "Date string in format YYYY_MM_DD",
+        
+            "pattern" : "/^\d{4}[\/\_](0?[1_9]|1[012])[\/\_](0?[1_9]|[12][0_9]|3[01])$/"
+        
+        }, 
+
+        "time" : {
+        
+            "type" : "string"
+        
+        },
+
+        "timezone" : {
+        
+            "type" : "string"
+        
+        }
+    }
+}
