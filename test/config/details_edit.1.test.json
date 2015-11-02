@@ -4,13 +4,13 @@
         
         {
 
-            "document_state" : { "value" : "NEW" },
+            "document_state" : { "state" : "NEW" },
 
             "fields" : [
                 
-                { "value" : "some.schema.field" },
+                { "path" : "some.schema.field" },
 
-                { "value" : "some.schema.field" }
+                { "path" : "some.schema.field" }
             
             ]
         }
@@ -20,15 +20,15 @@
 
         {
 
-            "user_role" : { "value" : "EDITOR" },
+            "user_role" : { "role" : "EDITOR" },
 
-            "document_state" : { "value" : "NEW" },
+            "document_state" : { "state" : "NEW" },
 
             "fields" : [
                 
-                { "value" : "some.schema.field" },
+                { "path" : "some.schema.field" },
 
-                { "value" : "some.schema.field" }
+                { "path" : "some.schema.field" }
             
             ]
         }

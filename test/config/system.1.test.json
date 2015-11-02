@@ -10,7 +10,7 @@
 
             "roles" : [
                 
-                { "value" : "ADMIN" }
+                { "role" : "ADMIN" }
 
             ]
 
@@ -22,7 +22,7 @@
 
             "roles" : [
 
-                { "value" : "EDITOR" }
+                { "role" : "EDITOR" }
 
             ]
         }
@@ -31,33 +31,33 @@
     "role_features" : [
 
         {
-            "role" : { "value" : "PUBLIC" },
+            "user_role" : { "role" : "PUBLIC" },
 
             "features_generic" : [
 
-                { "value" : "PUBLISH_SUGGESTIONS" }, 
+                { "feature" : "PUBLISH_SUGGESTIONS" }, 
 
-                { "value" : "SUBMIT_NEW_RECORD" }
+                { "feature" : "SUBMIT_NEW_RECORD" }
 
             ]
 
         }, {
 
-            "role" : { "value" : "EDITOR" },
+            "user_role" : { "role" : "EDITOR" },
 
-            "features_document_state" : [
+            "features_change_document_state" : [
 
                 {
 
-                    "start_state" : { "value" : "REVIEWED" },
+                    "from" : { "state" : "REVIEWED" },
 
-                    "end_state" : { "value" : "PUBLISHED" }
+                    "to" : { "state" : "PUBLISHED" }
 
                 }, {
 
-                    "start_state" : { "value" : "NEW" },
+                    "from" : { "state" : "NEW" },
 
-                    "end_state" : { "value" : "REVIEWED" }
+                    "to" : { "state" : "REVIEWED" }
 
                 }
 
@@ -65,15 +65,15 @@
 
         }, {
 
-            "role" : { "value" : "RESEARCHER" },
+            "user_role" : { "role" : "RESEARCHER" },
 
-            "features_document_state" : [
+            "features_change_document_state" : [
 
                 {
 
-                    "start_state" : { "value" : "NEW" },
+                    "from" : { "state" : "NEW" },
 
-                    "end_state" : { "value" : "REVIEWED" }
+                    "to" : { "state" : "REVIEWED" }
 
                 }
 

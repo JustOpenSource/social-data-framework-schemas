@@ -2,11 +2,11 @@
 
     "sort_by_options" : [
 
-        { "value" : "some.schema.path" },
+        { "path" : "some.schema.path" },
 
-        { "value" : "other.schema.path" },
+        { "path" : "other.schema.path" },
 
-        { "value" : "another.schema.path" }
+        { "path" : "another.schema.path" }
 
     ],
 
@@ -14,21 +14,21 @@
 
         "sort_type" : "ASCENDING",
 
-        "field" : { "value" : "some.schema.path" }
+        "schema_field" : { "path" : "some.schema.path" }
 
     },
 
     "filters" : [
 
-        { "value" : "some.schema.path" },
+        { "path" : "some.schema.path" },
 
-        { "value" : "other.schema.path" },
+        { "path" : "other.schema.path" },
 
-        { "value" : "another.schema.path" },
+        { "path" : "another.schema.path" },
 
-        { "value" : "yet.another.schema.path" },
+        { "path" : "yet.another.schema.path" },
 
-        { "value" : "still.another.schema.path" }
+        { "path" : "still.another.schema.path" }
 
     ]
 }

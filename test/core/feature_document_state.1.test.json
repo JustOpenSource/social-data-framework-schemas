@@ -1,7 +1,0 @@
-{
-
-    "start_state" : { "value" : "NEW" },
-
-    "end_state" : { "value" : "REVIEWED" }
-
-}

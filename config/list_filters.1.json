@@ -43,7 +43,7 @@
 
                 },
 
-                "field" : { "$ref" : "/core/schema_field.1" }
+                "schema_field" : { "$ref" : "/core/schema_field.1" }
             }
         },
 

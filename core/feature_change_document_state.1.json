@@ -1,6 +1,6 @@
 {
 
-    "id": "/core/feature_document_state.1",
+    "id": "/core/feature_change_document_state.1",
 
     "type": "object",
 
@@ -10,8 +10,8 @@
     
     "properties": {
         
-        "start_state" :  { "$ref" : "/core/document_state.1" },
+        "from" :  { "$ref" : "/core/document_state.1" },
 
-        "end_state" : { "$ref" : "/core/document_state.1" }
+        "to" : { "$ref" : "/core/document_state.1" }
     }
 }

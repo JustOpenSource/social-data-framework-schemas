@@ -10,7 +10,7 @@
     
     "properties": {
         
-        "value" : {
+        "role" : {
             
             "enum" : [ "ADMIN", "EDITOR", "RESEARCHER", "PUBLIC" ],
 

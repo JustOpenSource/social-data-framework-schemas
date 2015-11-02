@@ -8,7 +8,7 @@
 
     "additionalProperties" : false,
 
-    "required" : [ "fields", "per_page_default" ],
+    "required" : [ "schema_fields", "per_page_default" ],
 
     "properties": {
 
@@ -20,7 +20,7 @@
         
         },
 
-        "fields" : {
+        "schema_fields" : {
 
             "type" : "array",
 
@@ -32,11 +32,11 @@
 
                 "additionalProperties" : false,
 
-                "required" : [ "field", "size" ],
+                "required" : [ "schema_field", "size" ],
 
                 "properties" : {
 
-                    "field" : {
+                    "schema_field" : {
 
                         "type" : { "$ref" : "/core/schema_field.1" },
 

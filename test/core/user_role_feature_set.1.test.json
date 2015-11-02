@@ -1,20 +1,20 @@
 {
 
-    "role" : { "value" : "EDITOR" },
+    "user_role" : { "role" : "EDITOR" },
 
     "features_generic" : [
 
-        { "value" : "SUBMIT_NEW_RECORD" }
+        { "feature" : "SUBMIT_NEW_RECORD" }
 
     ],
 
-    "features_document_state" : [
+    "features_change_document_state" : [
         
         {
 
-            "start_state" : { "value" : "NEW" },
+            "from" : { "state" : "NEW" },
 
-            "end_state" : { "value" : "REVIEWED" }
+            "to" : { "state" : "REVIEWED" }
 
         }
     ]

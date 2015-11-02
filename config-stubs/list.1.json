@@ -2,11 +2,11 @@
 
     "per_page_default" : 10,
 
-    "fields" : [
+    "schema_fields" : [
 
         {
 
-            "field" : { "value" : "path.to.schema.field" },
+            "schema_field" : { "path" : "path.to.schema.field" },
 
             "size" : "SMALL",
 
@@ -16,7 +16,7 @@
 
         {
 
-            "field" : { "value" : "other.path.to.schema.field" },
+            "schema_field" : { "path" : "other.path.to.schema.field" },
 
             "size" : "MEDIUM"
 

@@ -9,7 +9,7 @@
     
     "properties": {
         
-        "value" : {
+        "state" : {
             
             "enum" : [ "NEW", "REVIEWED", "PUBLISHED" ],
 

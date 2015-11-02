@@ -10,7 +10,7 @@
     
     "properties": {
         
-        "role" : { "$ref" : "user_role.1" },
+        "user_role" : { "$ref" : "user_role.1" },
 
         "features_generic" : {
 
@@ -22,13 +22,13 @@
 
         },
 
-        "features_document_state" : {
+        "features_change_document_state" : {
 
             "type" : "array",
 
             "description" : "An array of features that apply to this user role.",
             
-            "items" :  { "$ref" : "/core/feature_document_state.1" }
+            "items" :  { "$ref" : "/core/feature_change_document_state.1" }
         
         }
     }
