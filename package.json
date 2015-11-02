@@ -1,1 +1,28 @@
-{}
+{
+
+    "name": "social-data-framework-schemas",
+
+    "version": "0.0.1",
+
+    "description": "Stores schemas for social-data-framework.",
+
+    "author": "troythewolfe",
+
+    "license": "MIT",
+
+    "main": "index.js",
+
+    "dependencies" : {
+
+    },
+
+    "repository": {
+
+        "type": "git",
+        "url": "https://github.com/JustOpenSource/social-data-framework-schemas.git"
+
+    },
+
+    "homepage": "https://github.com/JustOpenSource/social-data-framework-schemas"
+
+}
