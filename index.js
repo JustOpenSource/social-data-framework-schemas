@@ -6,7 +6,7 @@ schemas['config'] = {
     "infographics.1" : require(__dirname + "/config/infographics.1"),
     "list.1" : require(__dirname + "/config/list.1"),
     "list_filters.1" : require(__dirname + "/config/list_filters.1"),
-    "public_api.1" : require(__dirname + "/config/public_api.1"),
+    "api_public.1" : require(__dirname + "/config/api_public.1"),
     "system.1" : require(__dirname + "/config/system.1")
 };
 
@@ -16,7 +16,7 @@ schemas['config-stubs'] = {
     "infographics.1" : require(__dirname + "/config-stubs/infographics.1"),
     "list.1" : require(__dirname + "/config-stubs/list.1"),
     "list_filters.1" : require(__dirname + "/config-stubs/list_filters.1"),
-    "public_api.1" : require(__dirname + "/config-stubs/public_api.1"),
+    "api_public.1" : require(__dirname + "/config-stubs/api_public.1"),
     "system.1" : require(__dirname + "/config-stubs/system.1")
 };
 
@@ -47,7 +47,7 @@ schemas['test']['config'] = {
     "infographics.1" : require(__dirname + "/config/infographics.1"),
     "list.1" : require(__dirname + "/config/list.1"),
     "list_filters.1" : require(__dirname + "/config/list_filters.1"),
-    "public_api.1" : require(__dirname + "/config/public_api.1"),
+    "api_public.1" : require(__dirname + "/config/api_public.1"),
     "system.1" : require(__dirname + "/config/system.1")
 };
 

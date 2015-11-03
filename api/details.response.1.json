@@ -1,0 +1,45 @@
+{
+    "id": "/api/details.response.1",
+    
+    "type": "object",
+
+    "description" : "Schema for the details response api",
+
+    "required" : ["request", "details"],
+
+    "additionalProperties" : false,
+
+    "properties": {
+
+        "request" : {
+
+            "$ref" : "/api/details.request.1"
+
+        },
+
+        "details" : {
+
+            "type" : "array",
+
+            "items" : {
+
+                "type" : "object",
+
+                "properties" : {
+                    
+                    "schema_field" : {
+                    
+                        "type" : "string"
+                    
+                    },
+
+                    "value" : {
+                    
+                        "type" : "string"
+                    
+                    }
+                }
+            }
+        }
+    }
+}

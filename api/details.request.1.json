@@ -1,0 +1,19 @@
+{
+    "id": "/api/details.request.1",
+    
+    "type": "object",
+
+    "description" : "Schema for the details request api",
+
+    "required" : ["id"],
+
+    "additionalProperties" : false,
+
+    "properties": {
+
+        "id" : {
+
+            "type" : "string"
+        }
+    }
+}

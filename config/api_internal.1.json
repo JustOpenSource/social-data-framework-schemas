@@ -1,0 +1,55 @@
+{
+    "id": "/config/api_internal.1",
+    
+    "type": "object",
+
+    "description" : "Config for the internal api.",
+
+    "additionalProperties" : false,
+
+    "properties": {
+
+        "type" : "array",
+
+        "items" : {
+
+            "type" : "object",
+
+            "properties" : {
+
+                "url_root" : {
+
+                    "type" : "string",
+
+                    "description" : "root url of the api"
+                
+                },
+
+                "endpoints" : {
+
+                    "type" : "array",
+
+                    "items" : {
+
+                        "type" : "object",
+
+                        "properties" : {
+
+                            "end_point" : {
+
+                                "type" : "string"
+
+                            },
+
+                            "schema_name" : {
+
+                                "type" : "string"
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

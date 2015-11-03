@@ -1,0 +1,28 @@
+{
+    "id": "/api/list.response.1",
+    
+    "type": "object",
+
+    "description" : "Schema for the list response api",
+
+    "required" : ["request", "list"],
+
+    "additionalProperties" : false,
+
+    "properties": {
+
+        "request" : {
+
+            "$ref" : "/api/list.request.1"
+
+        },
+
+        "list" : {
+
+            "type" : "array",
+
+            "items" : {}
+
+        }
+    }
+}

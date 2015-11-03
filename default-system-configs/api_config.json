@@ -1,0 +1,23 @@
+{
+    "url_root" : "api/1",
+
+    "endpoints" : [{
+
+        "end_point" : "details",
+
+        "schema" : "details.1"
+    
+    }, {
+
+        "end_point" : "list",
+
+        "schema" : "list.1"
+
+    }, {
+
+        "end_point" : "schema",
+
+        "schema" : "schema.1"
+
+    }]
+}

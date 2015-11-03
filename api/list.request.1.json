@@ -1,0 +1,69 @@
+{
+    "id": "/api/list.request.1",
+    
+    "type": "object",
+
+    "description" : "Schema for the list request api",
+
+    "additionalProperties" : false,
+
+    "properties": {
+
+        "no_limit" : {
+
+            "type" : "boolean"
+        
+        },
+
+        "limit" : {
+
+            "type" : "integer"
+
+        },
+
+        "page" : {
+
+            "type" : "integer"
+
+        },
+
+        "sort_by_schema_field" : {
+
+            "$ref" : "core/schema_field.1"
+        
+        },
+
+        "sort_direction" : {
+
+            "enum" : [ "ASCENDING", "DESCENDING" ]
+        
+        },
+
+        "filters" : {
+
+            "type" : "array",
+
+            "description" : "The filters that apply to the schema",
+
+            "items" : {
+
+                "type" : "object",
+
+                "properties" : {
+
+                    "schema_field" : {
+
+                        "$ref" : "core/schema_field.1"
+        
+                    },
+
+                    "value" : {
+
+                        "type" : "string"
+                    
+                    }
+                }
+            }
+        }
+    }
+}

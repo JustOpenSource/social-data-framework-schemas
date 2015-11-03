@@ -1,0 +1,20 @@
+{
+    "id": "/api/schema.request.1",
+    
+    "type": "object",
+
+    "description" : "Schema for the schema request api",
+
+    "required" : ["name"],
+
+    "additionalProperties" : false,
+
+    "properties": {
+
+        "name" : {
+
+            "type" : "string"
+
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "id": "/api/schema.response.1",
+    
+    "type": "object",
+
+    "description" : "Schema for the schema response api",
+
+    "required" : ["request", "schema"],
+
+    "additionalProperties" : false,
+
+    "properties": {
+
+        "request" : {
+
+            "$ref" : "/api/schema.request.1"
+
+        },
+
+        "schema" : {}
+    }
+}
