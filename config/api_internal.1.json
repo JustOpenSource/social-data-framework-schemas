@@ -9,44 +9,38 @@
 
     "properties": {
 
-        "type" : "array",
+        "route_root" : {
 
-        "items" : {
+            "type" : "string",
 
-            "type" : "object",
+            "description" : "root url of the api"
+        
+        },
 
-            "properties" : {
+        "routes" : {
 
-                "url_root" : {
+            "type" : "array",
 
-                    "type" : "string",
+            "items" : {
 
-                    "description" : "root url of the api"
-                
-                },
+                "type" : "object",
 
-                "endpoints" : {
+                "properties" : {
 
-                    "type" : "array",
+                    "route" : {
 
-                    "items" : {
+                        "type" : "string",
 
-                        "type" : "object",
+                        "description" : "the url route"
 
-                        "properties" : {
+                    },
 
-                            "end_point" : {
+                    "schema_name" : {
 
-                                "type" : "string"
+                        "type" : "string",
 
-                            },
+                        "description" : "the api schema associated with this route"
 
-                            "schema_name" : {
-
-                                "type" : "string"
-
-                            }
-                        }
                     }
                 }
             }

@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 schemas = {};
 
 schemas['config'] = {
@@ -17,7 +19,9 @@ schemas['config-stubs'] = {
     "list.1" : require(__dirname + "/config-stubs/list.1"),
     "list_filters.1" : require(__dirname + "/config-stubs/list_filters.1"),
     "api_public.1" : require(__dirname + "/config-stubs/api_public.1"),
-    "system.1" : require(__dirname + "/config-stubs/system.1")
+    "system.1" : require(__dirname + "/config-stubs/system.1"),
+    "package" : require(__dirname + "/config-stubs/package"),
+    "main" : fs.readFileSync(__dirname + "/config-stubs/main.js", "utf8")
 };
 
 schemas['core'] = {

@@ -1,0 +1,18 @@
+{
+
+    "name": "sdf-",
+
+    "version": "0.0.1",
+
+    "description": "A social data framework of ",
+
+    "license": "MIT",
+
+    "main": "index.js",
+
+    "dependencies" : {
+
+        "social-data-framework" : "0.0.1"
+    
+    }
+}
