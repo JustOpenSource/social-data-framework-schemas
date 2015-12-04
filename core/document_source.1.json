@@ -1,0 +1,62 @@
+{
+    "id": "/core/document_state.1",
+
+    "type": "object",
+
+    "description" : "Document states enum.",
+
+    "additionalProperties" : false,
+    
+    "properties": {
+        
+        "document_id" : {
+            
+            "type" : "string",
+
+            "description" : "The possible states of a document."
+
+        },
+
+        //http://citationstyles.org/
+        "citation" : {
+            
+            "type" : { "$ref" : "/dictionary/citation.1" }
+
+        },
+
+        "notes" : {
+
+            "type" : "array",
+
+            "items" : {
+
+                "type" : "object",
+
+                "properties" : {
+
+                    "username" : {
+
+                        "type" : "string",
+
+                        "description" : "The user who added the note"
+
+                    },
+
+                    "date_time" : {
+
+                        "type" : { "$ref" : "/dictionary/date_time.1" }
+
+                    },
+
+                    "note" : {
+
+                        "type" : "string",
+
+                        "description" : "The note about the citation"
+
+                    },
+                }
+            }
+        }
+    }
+}
