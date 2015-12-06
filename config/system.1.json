@@ -8,9 +8,23 @@
 
     "additionalProperties" : false,
 
-    "required" : [ "users", "role_features" ],
+    "required" : [ "db_driver", "users", "role_features" ],
 
     "properties" : {
+
+        "database_driver" : {
+
+            "type" : "string",
+
+            "description" : "Name of the database driver used by this instance"
+        },
+
+        "database_url" : {
+
+            "type" : "string",
+
+            "description" : "URL of the database used by this instance"
+        },
 
         "users" : {
 

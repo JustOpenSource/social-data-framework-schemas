@@ -2,4 +2,4 @@
 var sdf = new require('social-data-framework')();
 
 //start the server
-sdf.runServer(__dirname);
+sdf.start(__dirname);
